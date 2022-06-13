@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: rgb(58, 48, 48); */
+  background-color: #1a1a1a;
+  color: white;
+}
+
+main {
+  background-color: #4b4b4b;
+  height: 100vh;
+  width: 60%;
+  /* margin: auto; */
+  display: flex;
+  /* flex-flow: column wrap; */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+section {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+}
+.header {
+  background-color: black;
+  height: 5vh;
+  font-size: 40px;
+  /* height: 10%;
+  width: 60%;
+  margin: auto; */
+}
+.ATCH {
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+}
+h1 {
+  color: white;
+}
+
+a {
+  padding: 5%;
+}
+
+aside {
+  background-color: white;
+  /* color: white; */
+  height: 100%;
+  width: 15vw;
+  font-size: 2rem;
+}
+
+article {
+  background-color: black;
+  color: aliceblue;
+  height: 210px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.SMT {
+  background-color: #473636;
+  width: 350px;
+}
+div {
+  /* background-color: black; */
+  display: flex;
+  /* background: black; */
+  justify-content: center;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.Thumbnail {
+  height: 180px;
+  line-height: 150px;
+}
